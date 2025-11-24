@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciar Produtos</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="../users/users.html">Usuários</a></li>
+                <li><a href="products.html">Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2 style="text-align: center; margin-bottom: 20px;">Gerenciar Produtos</h2>
+
+        <button class="btn-float" id="btnNew">+ Novo Produto</button>
+
+        <section id="prodList" class="grid-list"></section>
+
+        <div class="modal-overlay" id="modalOverlay">
+            <div class="popup-card">
+                <button class="close-btn" id="btnCloseModal">✖</button>
+                <div class="heading">Novo Produto</div>
+                <form id="prodForm" class="form">
+                    <input required class="input" type="text" id="title" placeholder="Nome do Produto">
+                    <input required class="input" type="text" id="desc" placeholder="Descrição curta">
+                    <input required class="input" type="text" id="brand" placeholder="Marca">
+                    <input required class="input" type="text" id="cat" placeholder="Categoria">
+                    <input required class="input" type="number" id="price" step="0.01" placeholder="Preço (Máx 120)">
+                    <input class="input" type="text" id="thumb" placeholder="URL da Imagem (Opcional)">
+                    <button type="submit" class="login-button">Salvar Produto</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Loja Ragi. Todos os direitos reservados.</p>
+        <small>Política de Privacidade | Termos de Uso | Feito com 💙 por Grupo Ragi</small>
+    </footer>
+
+    <script src="products.js"></script>
+</body>
+</html>

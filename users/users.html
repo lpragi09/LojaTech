@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciar Usuários</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="users.html">Usuários</a></li>
+                <li><a href="../products/products.html">Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2 style="text-align: center; margin-bottom: 20px;">Gerenciar Usuários</h2>
+
+        <button class="btn-float" id="btnNew">+ Novo Usuário</button>
+
+        <section id="usersList" class="grid-list"></section>
+
+        <div class="modal-overlay" id="modalOverlay">
+            <div class="popup-card">
+                <button class="close-btn" id="btnCloseModal">✖</button>
+                <div class="heading">Novo Usuário</div>
+                <form id="userForm" class="form">
+                    <input required class="input" type="text" id="firstName" placeholder="Nome (Min. 3 letras)">
+                    <input required class="input" type="text" id="lastName" placeholder="Sobrenome">
+                    <input required class="input" type="email" id="email" placeholder="E-mail Válido">
+                    <input required class="input" type="number" id="age" placeholder="Idade">
+                    <input class="input" type="text" id="image" placeholder="URL da Foto (Opcional)">
+                    <button type="submit" class="login-button">Salvar Usuário</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Loja Ragi. Todos os direitos reservados.</p>
+        <small>Política de Privacidade | Termos de Uso | Feito com 💙 por Grupo Ragi</small>
+    </footer>
+
+    <script src="users.js"></script>
+</body>
+</html>
