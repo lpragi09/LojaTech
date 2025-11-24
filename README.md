@@ -1,6 +1,6 @@
 # Projeto Loja Tech - Desenvolvimento Web
 
-Este projeto é uma aplicação web para gerenciamento de usuários e produtos, desenvolvida como requisito avaliativo da disciplina. O sistema consome a API pública `dummyjson.com` e implementa validações de formulário rigorosas.
+Este projeto é uma aplicação web para gerenciamento de usuários e produtos, desenvolvida como requisito avaliativo da disciplina. O sistema consome a API pública dummyjson.com e implementa validações de formulário rigorosas.
 
 ## 👥 Integrantes do Grupo
 * [Luiz Paulo M Ragi]
@@ -27,6 +27,3 @@ Este projeto é uma aplicação web para gerenciamento de usuários e produtos, 
 * **Numéricos (Idade/Preço):** Devem ser positivos e menores que 120.
 * **Imagens:** URL válida (opcional).
 
-## how-to-run (Como rodar)
-1.  Clone este repositório.
-2.  Abra o arquivo `index.html` em qualquer navegador moderno.
